@@ -123,19 +123,18 @@
     @apply mt-4
             w-full
             rounded-md
-            bg-primary-600
-            bg-gray-500
+            /* bg-gray-500 */
             px-3.5
             py-2.5
             text-sm
             font-semibold
             text-white
             shadow-sm
-            enabled:hover:bg-primary-700
+            /* enabled:hover:bg-primary-700 */
             focus-visible:outline
             focus-visible:outline-2
             focus-visible:outline-offset-2
-            enabled:focus-visible:outline-primary-600
+            /* enabled:focus-visible:outline-primary-600 */
             box-border
 
             disabled:opacity-30

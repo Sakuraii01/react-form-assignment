@@ -30,5 +30,6 @@ export default {
       serif: ["Merriweather", "serif"],
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  presets: ["@babel/preset-react"],
+  plugins: [require("@tailwindcss/forms"), "@emotion/babel-plugin"],
 };
