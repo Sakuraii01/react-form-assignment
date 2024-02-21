@@ -26,13 +26,13 @@ const Register = () => {
                 <div>
                   <InputField
                     type="text"
-                    name="firstname"
+                    name="firstName"
                     label="Firstname"
                     placeholder="Your firstname"
                   />
                   <InputField
                     type="text"
-                    name="lastname"
+                    name="lastName"
                     label="Lastname"
                     placeholder="Your lastname"
                   />
@@ -40,7 +40,7 @@ const Register = () => {
                 <div>
                   <InputField
                     type="text"
-                    name="username"
+                    name="userName"
                     label="Username"
                     placeholder="Your username"
                   />

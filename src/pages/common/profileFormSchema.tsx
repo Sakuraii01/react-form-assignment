@@ -2,9 +2,9 @@ import * as yup from "yup";
 
 const profileFormSchema = () => {
   const profileFormValidationSchema = yup.object({
-    firstname: yup.string().required("Firstname is required"),
-    lastname: yup.string().required("Lastname is required"),
-    username: yup.string().required("Username is required"),
+    firstName: yup.string().required("Firstname is required"),
+    lastName: yup.string().required("Lastname is required"),
+    userName: yup.string().required("Username is required"),
     email: yup
       .string()
       .email("Invalid email format")
